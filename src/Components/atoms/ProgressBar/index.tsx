@@ -1,6 +1,5 @@
-import { LinearProgress } from '@mui/material';
-
-
+ import { LinearProgress } from '@mui/material';
+ import {createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
 const barStyled =
 { height: '15px', 
   opacity: '0.5', 
@@ -8,9 +7,19 @@ const barStyled =
   backgroundColor: '#DFE8F6'
 }
 
+const theme = createMuiTheme({
+  palette: {
+     secondary: {
+         main: '#E1ECFC'
+     }
+  }
+})
+
 const ProgressBarComponent = ({value, ...props}:any) => {
     return (
-            <LinearProgress value={value} {...props} sx={barStyled} variant="determinate" />
+      <MuiThemeProvider theme={theme}>
+            <LinearProgress value={value} {...props} sx={barStyled} variant="determinate" color='secondary'/>
+            </MuiThemeProvider>
     )
 }
 

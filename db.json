@@ -136,11 +136,15 @@
   "library": {
     "currentlyReading": [
       {
-        "id": 3,
-        "progress": 0
+        "id": 11,
+        "progress": 65
       },
       {
-        "id": 0,
+        "id": 4,
+        "progress": 90
+      },
+      {
+        "id": 3,
         "progress": 0
       }
     ],
@@ -159,15 +163,6 @@
       },
       {
         "id": 1
-      },
-      {
-        "id": 11
-      },
-      {
-        "id": 2
-      },
-      {
-        "id": 4
       }
     ]
   },

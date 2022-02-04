@@ -85,7 +85,7 @@ let mainTheme = createTheme({
         }  
     },
     typography: {
-        fontFamily: "Cera Pro",
+        fontFamily: 'Cera Pro',
         heading: {
             fontSize: '36px',
             lineHeight: '45px',

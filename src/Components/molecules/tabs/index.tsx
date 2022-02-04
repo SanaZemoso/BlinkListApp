@@ -25,13 +25,13 @@ export default function TabsWrappedLabel({tabData, ...props}: any) {
 
   return (
     <Box sx={{ borderBottom: 1, borderColor: 'divider', width:'912px' }}>
-    <ThemeProvider theme={tabTheme}>
+    {/* <ThemeProvider theme={tabTheme}> */}
       <Tabs
         value={value}
         onChange={handleChange}
         aria-label="wrapped label tabs example"
         autoCapitalize="none"
-        indicatorColor= "secondary"
+        sx={{color:'#22C870'}}
         data-testid='tabs'
       >
         {
@@ -47,7 +47,7 @@ export default function TabsWrappedLabel({tabData, ...props}: any) {
           })
         }
       </Tabs>
-    </ThemeProvider>
+    {/* </ThemeProvider> */}
     </Box>
   );
 }

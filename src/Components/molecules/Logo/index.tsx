@@ -5,7 +5,8 @@ const LogoComponent = ({height=33, url, name, ...props}:any) => {
     return (
         <Box sx={{
                 display: 'flex',
-                alignItems: 'center'
+                alignItems: 'center',
+                color: '#03314B'    //mc
             }} >
             <Image height={height}  alt="blinkist" component="img" src={url}/>
             <Typography 

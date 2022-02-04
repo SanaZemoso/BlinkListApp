@@ -7,7 +7,7 @@ import {Theme} from '../../../Themes/theme';
 const TypographyComponents = (props:any) => {
     return (
         <ThemeProvider theme={Theme} >
-        <Typography variant={props.variant1} mb={1} mt={1}   {...props} >
+        <Typography variant={props.variant1} mb={1} mt={1}   {...props} fontFamily='Cera Pro' >
             {props.children}
         </Typography>
         </ThemeProvider>

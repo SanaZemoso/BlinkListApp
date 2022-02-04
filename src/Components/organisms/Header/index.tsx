@@ -35,7 +35,7 @@ const HeaderComponent = (props : any) => {
         setAnchorElUser(null);
     };
     return (
-        <AppBar data-testid='box' position="fixed" sx={{color: 'black', backgroundColor: 'white', boxShadow: 'none', display:'flex',justifyContent:'start'}}>
+        <AppBar data-testid='box' position="fixed" sx={{fontFamily:'Cera Pro' ,color: 'Black', backgroundColor: 'white', boxShadow: 'none', display:'flex',justifyContent:'start'}}>
             <Container>
                 <Toolbar sx={{height: '86px',  display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
                 <NavLink to='/' style={{ textDecoration: 'none' }}>

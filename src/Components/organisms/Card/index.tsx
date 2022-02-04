@@ -95,7 +95,7 @@ const CardComponent = ({imgHeight, url, bookName, writerName, timeRead = "0-minu
             </Box>
             <Box sx={{ position: 'relative'}}>
                 {bookLibraryStatus ? 
-                    <ProgressBar width={100} value={progress} color='primary' data-testid='progress'/> 
+                    <ProgressBar width={100} value={progress}  data-testid='progress'/> 
                     :
                     <Box onClick={e => 
                         libraryHandler(cardId, setBookLibraryStatus)

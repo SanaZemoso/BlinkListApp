@@ -8,12 +8,14 @@ import Card from '../../organisms/Card';
 import CircularProgress from '@mui/material/CircularProgress';
 import {Theme} from '../../../Themes/theme';
 import { makeStyles } from '@mui/styles';
+import { colors } from '@material-ui/core';
 
 const useStyle = makeStyles({
     cards: {
         display: 'flex', 
         alignItems: 'center', 
-        flexWrap: 'wrap'
+        flexWrap: 'wrap',
+        font:'Cera Pro',
     }
 });
 
@@ -86,10 +88,10 @@ const MyLibrary = ({books, setBooks, library, setLibrary}:any) =>{
 
     return (
         <Container sx={{paddingTop: '50px', marginBottom:'100px'}}>
-            <Typography variant1="h5" theme={Theme} mb={4}  sx={{display:'flex',justifyContent:'start', color:'#03314B', fontStyle:'Roboto',fontSize:'36px'}}>
+            <Typography variant1="h5" theme={Theme} mb={4}  sx={{display:'flex',justifyContent:'start', color:'#03314B', fontStyle:'Cera Pro',fontSize:'36px'}}>
                 My Library
             </Typography>
-            <Tab stateHandler={handleState} tabData={tabData}/>
+            <Tab stateHandler={handleState} tabData={tabData} />
             <Box className={classes.cards} mt={4}>
                 { 
                     cards()
