@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1643977222985" clover="3.2.0">
-  <project timestamp="1643977222985" name="All files">
+<coverage generated="1644212957065" clover="3.2.0">
+  <project timestamp="1644212957065" name="All files">
     <metrics statements="262" coveredstatements="167" conditionals="76" coveredconditionals="58" methods="82" coveredmethods="53" elements="420" coveredelements="278" complexity="0" loc="262" ncloc="262" packages="23" files="40" classes="40"/>
     <package name="src">
       <metrics statements="11" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="1"/>
@@ -10,8 +10,8 @@
       </file>
       <file name="index.tsx" path="/home/sanafm/Documents/Blinkist-app/src/index.tsx">
         <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
       </file>
       <file name="reportWebVitals.ts" path="/home/sanafm/Documents/Blinkist-app/src/reportWebVitals.ts">
         <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
