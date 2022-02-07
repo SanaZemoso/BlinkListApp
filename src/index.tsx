@@ -3,14 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './CeraProMedium.otf';
+import { ThemeProvider } from "@mui/material/styles";
+import theme from './Themes/main';
+import { Theme } from '@mui/system';
+
 
 
 
 ReactDOM.render(
   <React.StrictMode>
+  <ThemeProvider theme={theme}>
+  <App />
+  </ThemeProvider>
   
-  
-    <App />
+    
   
   </React.StrictMode>,
   document.getElementById('root')

@@ -16,7 +16,7 @@ export const Theme = createTheme({
     }
   },
   typography: {
-    fontFamily: 'Cera Pro',
+   
     h1:{
       fontWeight: 'bold'
     },

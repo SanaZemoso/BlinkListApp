@@ -13,10 +13,10 @@ import theme from './Themes/main';
 function App() {
   return (
     <div data-testid="App1" className="App">
-      <ThemeProvider theme={theme}>
+      {/* <ThemeProvider theme={theme}> */}
       <CssBaseline />
       <Template />
-    </ThemeProvider>
+    {/* </ThemeProvider> */}
 
     </div>
   );

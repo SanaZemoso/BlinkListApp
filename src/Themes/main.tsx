@@ -85,7 +85,7 @@ let mainTheme = createTheme({
         }  
     },
     typography: {
-        fontFamily: 'Cera Pro',
+        // fontFamily: 'Cera Pro',
         heading: {
             fontSize: '36px',
             lineHeight: '45px',
@@ -131,7 +131,17 @@ let mainTheme = createTheme({
             lineHeight: '22px'
         },
     },
-    spacing: [4, 8, 12, 16, 20, 32, 48]
+    spacing: [4, 8, 12, 16, 20, 32, 48],
+
+    components: {
+        MuiTypography: {
+            styleOverrides: {
+                root: {
+                    fontFamily: "CeraProMedium"
+                }
+            }
+        }
+    }
 });
 
 

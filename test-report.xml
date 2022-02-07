@@ -1,97 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testExecutions version="1">
-  <file path="E:\React\blinkist\src\Components\organisms\Card\index.test.tsx">
-    <testCase name="it should render same bookname text" duration="165"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/NavIcon/index.test.tsx">
+    <testCase name="handle hover state" duration="105"/>
+    <testCase name="it render the nav icon as well as label" duration="31"/>
+    <testCase name="Left icon" duration="11"/>
+    <testCase name="Right icon" duration="10"/>
+    <testCase name="teststate" duration="9"/>
+  </file>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Card/index.test.tsx">
+    <testCase name="it should render same bookname text" duration="212"/>
     <testCase name="should render same writer name text" duration="46"/>
     <testCase name="should render same time read text" duration="38"/>
-    <testCase name="should render white background color if inLibrary is true" duration="126"/>
-    <testCase name="should render different color of card body when inLibrary is false as well as in hoveredState" duration="83"/>
-    <testCase name="should render different color od card box when inLibrary is false as well as in hoveredState" duration="48"/>
-    <testCase name="should card-library-handler be clickable and when inLIbrary is false" duration="59"/>
+    <testCase name="should render white background color if inLibrary is true" duration="88"/>
+    <testCase name="should render different color of card body when inLibrary is false as well as in hoveredState" duration="113"/>
+    <testCase name="should render different color od card box when inLibrary is false as well as in hoveredState" duration="65"/>
+    <testCase name="should card-library-handler be clickable and when inLIbrary is false" duration="30"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\organisms\Header\index.test.tsx">
-    <testCase name="Header it search-state-button button should be clickable" duration="440"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Input/index.test.tsx">
+    <testCase name="Input Components" duration="179"/>
+    <testCase name="it should render input element" duration="79"/>
+    <testCase name="should be able to type in input" duration="34"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\organisms\Explorer\index.test.tsx">
-    <testCase name="Explore render Explore by category heading" duration="443"/>
-    <testCase name="Explore should recently added text to be clickable" duration="190"/>
-    <testCase name="Explore it should See popular titles to be clickable" duration="135"/>
-    <testCase name="Explore Explore by category text should be blue" duration="149"/>
-    <testCase name="Explore Nav Icon count should be 26" duration="156"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/pages/MyLibrary/index.test.tsx">
+    <testCase name="Library it renders cicular progress bar if books are not available" duration="363"/>
+    <testCase name="Library should not render cicular progress bar if books are available" duration="222"/>
+    <testCase name="Library should render same no of finished books" duration="597"/>
+    <testCase name="Library should render same no of currently books" duration="234"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\pages\EntrepreneurPage\index.test.tsx">
-    <testCase name="Home it should render input" duration="569"/>
-    <testCase name="Home should render containers matching to data length" duration="237"/>
-    <testCase name="Home should render a circularbox if library is empty" duration="71"/>
-    <testCase name="Home clickable library handler" duration="271"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Explorer/index.test.tsx">
+    <testCase name="Explore render Explore by category heading" duration="542"/>
+    <testCase name="Explore should recently added text to be clickable" duration="248"/>
+    <testCase name="Explore it should See popular titles to be clickable" duration="193"/>
+    <testCase name="Explore Explore by category text should be blue" duration="279"/>
+    <testCase name="Explore Nav Icon count should be 26" duration="201"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\molecules\Search\index.test.tsx">
-    <testCase name="it should render input box" duration="127"/>
-    <testCase name="it should render filtered result of length 2 for Employee search" duration="284"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/Template/Template.test.tsx">
+    <testCase name="Template should render circular bar if data is empty" duration="97"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\atoms\Input\index.test.tsx">
-    <testCase name="Input Components" duration="68"/>
-    <testCase name="it should render input element" duration="54"/>
-    <testCase name="should be able to type in input" duration="22"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Images/index.test.tsx">
+    <testCase name="it renders Images" duration="146"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\pages\BookInfoPage\index.test.tsx">
-    <testCase name="it is Book Info should render circular bar if data is empty" duration="131"/>
-    <testCase name="it is Book Info should not render circular bar if data is not empty" duration="2039"/>
-    <testCase name="it is Book Info should render tabs with clickable option" duration="2129"/>
-    <testCase name="it is Book Info should render third tab with clickable option" duration="2096"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/pages/EntrepreneurPage/index.test.tsx">
+    <testCase name="Home it should render input" duration="655"/>
+    <testCase name="Home should render containers matching to data length" duration="328"/>
+    <testCase name="Home should render a circularbox if library is empty" duration="88"/>
+    <testCase name="Home clickable library handler" duration="322"/>
   </file>
-  <file path="E:\React\blinkist\src\App.test.tsx">
-    <testCase name="render the App Component" duration="99"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/tabs/index.test.tsx">
+    <testCase name="it should render 2 tabw for 2 length data" duration="380"/>
+    <testCase name="this should have green indicator color for currently reading tab by default" duration="69"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\atoms\Button\index.test.tsx">
-    <testCase name="it renders Button" duration="136"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Typography/index.test.tsx">
+    <testCase name="renders Text passed from prop" duration="49"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\molecules\Banner1\index.test.tsx">
-    <testCase name="Banner is Heading" duration="184"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Icons/index.test.tsx">
+    <testCase name="it should render passed icon" duration="56"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\organisms\Footer\index.test.tsx">
-    <testCase name="Footer" duration="185"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/ProgressBar/index.test.tsx">
+    <testCase name="should render progressbar" duration="91"/>
+    <testCase name="should render progressbar with value" duration="32"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\atoms\ProgressBar\index.test.tsx">
-    <testCase name="should render progressbar" duration="95"/>
-    <testCase name="should render progressbar with value" duration="29"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/pages/BookInfoPage/index.test.tsx">
+    <testCase name="it is Book Info should render circular bar if data is empty" duration="215"/>
+    <testCase name="it is Book Info should not render circular bar if data is not empty" duration="2043"/>
+    <testCase name="it is Book Info should render tabs with clickable option" duration="2156">
+      <failure message="Error: expect(element).toHaveStyle()"><![CDATA[Error: expect(element).toHaveStyle()
+
+- Expected
+
+- border-bottom-color: #2CE080;
+    at Object.<anonymous> (/home/sanafm/Documents/Blinkist-app/src/Components/pages/BookInfoPage/index.test.tsx:42:29)]]></failure>
+    </testCase>
+    <testCase name="it is Book Info should render third tab with clickable option" duration="2090">
+      <failure message="Error: expect(element).toHaveStyle()"><![CDATA[Error: expect(element).toHaveStyle()
+
+- Expected
+
+- border-bottom-color: #2CE080;
+    at Object.<anonymous> (/home/sanafm/Documents/Blinkist-app/src/Components/pages/BookInfoPage/index.test.tsx:49:29)]]></failure>
+    </testCase>
   </file>
-  <file path="E:\React\blinkist\src\Components\pages\MyLibrary\index.test.tsx">
-    <testCase name="Library it renders cicular progress bar if books are not available" duration="240"/>
-    <testCase name="Library should not render cicular progress bar if books are available" duration="172"/>
-    <testCase name="Library should render same no of finished books" duration="417"/>
-    <testCase name="Library should render same no of currently books" duration="144"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Button/index.test.tsx">
+    <testCase name="it renders Button" duration="149"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\molecules\NavIcon\index.test.tsx">
-    <testCase name="handle hover state" duration="70"/>
-    <testCase name="it render the nav icon as well as label" duration="11"/>
-    <testCase name="Left icon" duration="10"/>
-    <testCase name="Right icon" duration="8"/>
-    <testCase name="teststate" duration="8"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/Logo/index.test.tsx">
+    <testCase name="should render Logo" duration="63"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\atoms\Typography\index.test.tsx">
-    <testCase name="renders Text passed from prop" duration="62"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/Banner1/index.test.tsx">
+    <testCase name="Banner is Heading" duration="136"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\molecules\tabs\index.test.tsx">
-    <testCase name="it should render 2 tabw for 2 length data" duration="208"/>
-    <testCase name="this should have green indicator color for currently reading tab by default" duration="64"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Blank/index.test.tsx">
+    <testCase name="renders the blank component" duration="46"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\molecules\Logo\index.test.tsx">
-    <testCase name="should render Logo" duration="80"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/atoms/Avatar/index.test.tsx">
+    <testCase name="renders the avatar" duration="48"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\atoms\Images\index.test.tsx">
-    <testCase name="it renders Images" duration="77"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Footer/index.test.tsx">
+    <testCase name="Footer" duration="144">
+      <failure message="Error: expect(received).toMatchSnapshot()"><![CDATA[Error: expect(received).toMatchSnapshot()
+
+Snapshot name: `Footer 1`
+
+- Snapshot  - 18
++ Received  + 18
+
+@@ -6,25 +6,25 @@
+    >
+      <div
+        className="MuiBox-root css-315n33"
+      >
+        <div
+-         className="MuiBox-root css-70qvj9"
++         className="MuiBox-root css-fwqdem"
+        >
+          <img
+            alt="not found"
+            className="MuiBox-root css-xgff9b"
+            src="/assets/logo.png"
+          />
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-cl9qd7-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-1b7in6a-MuiTypography-root"
+          >
+            Blinkist
+          </p>
+        </div>
+        <h6
+-         className="MuiTypography-root MuiTypography-h6 css-1dzacpr-MuiTypography-root"
++         className="MuiTypography-root MuiTypography-h6 css-1t94c4s-MuiTypography-root"
+          data-testid="slogan"
+        >
+          Big ideas in small packages
+          <br />
+          Start learning now
+@@ -36,91 +36,91 @@
+        <div
+          className="MuiBox-root css-6iaxro"
+          data-testid="topics"
+        >
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-ohx2p-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-11qzqod-MuiTypography-root"
+          >
+            Editorial
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            Book lists
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            What is Notfication?
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            What to read next?
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            Benefits of reading
+          </p>
+        </div>
+        <div
+          className="MuiBox-root css-6iaxro"
+          data-testid="topics"
+        >
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-ohx2p-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-11qzqod-MuiTypography-root"
+          >
+            Useful links
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            Pricing
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            Blinkist business
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            Gift cards
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            Blinkist magaine
+          </p>
+        </div>
+        <div
+          className="MuiBox-root css-6iaxro"
+          data-testid="topics"
+        >
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-ohx2p-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-11qzqod-MuiTypography-root"
+          >
+            Company
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            About
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            Carrer
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            partners
+          </p>
+          <p
+-           className="MuiTypography-root MuiTypography-body1 css-e3ldce-MuiTypography-root"
++           className="MuiTypography-root MuiTypography-body1 css-121wm7l-MuiTypography-root"
+          >
+            Code of Conduct
+          </p>
+        </div>
+      </div>
+    at Object.<anonymous> (/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Footer/index.test.tsx:10:21)
+    at Promise.then.completed (/home/sanafm/Documents/Blinkist-app/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/home/sanafm/Documents/Blinkist-app/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusTest (/home/sanafm/Documents/Blinkist-app/node_modules/jest-circus/build/run.js:218:40)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at _runTest (/home/sanafm/Documents/Blinkist-app/node_modules/jest-circus/build/run.js:155:3)
+    at _runTestsForDescribeBlock (/home/sanafm/Documents/Blinkist-app/node_modules/jest-circus/build/run.js:66:9)
+    at run (/home/sanafm/Documents/Blinkist-app/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/sanafm/Documents/Blinkist-app/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)
+    at jestAdapter (/home/sanafm/Documents/Blinkist-app/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:82:19)
+    at runTestInternal (/home/sanafm/Documents/Blinkist-app/node_modules/jest-runner/build/runTest.js:389:16)
+    at runTest (/home/sanafm/Documents/Blinkist-app/node_modules/jest-runner/build/runTest.js:475:34)
+    at Object.worker (/home/sanafm/Documents/Blinkist-app/node_modules/jest-runner/build/testWorker.js:133:12)]]></failure>
+    </testCase>
   </file>
-  <file path="E:\React\blinkist\src\Components\Template\Template.test.tsx">
-    <testCase name="Template should render circular bar if data is empty" duration="86"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/molecules/Search/index.test.tsx">
+    <testCase name="it should render input box" duration="138"/>
+    <testCase name="it should render filtered result of length 2 for Employee search" duration="141"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\atoms\Avatar\index.test.tsx">
-    <testCase name="renders the avatar" duration="45"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/Components/organisms/Header/index.test.tsx">
+    <testCase name="Header it search-state-button button should be clickable" duration="275"/>
   </file>
-  <file path="E:\React\blinkist\src\Components\atoms\Blank\index.test.tsx">
-    <testCase name="renders the blank component" duration="44"/>
-  </file>
-  <file path="E:\React\blinkist\src\Components\atoms\Icons\index.test.tsx">
-    <testCase name="it should render passed icon" duration="27"/>
+  <file path="/home/sanafm/Documents/Blinkist-app/src/App.test.tsx">
+    <testCase name="render the App Component" duration="47"/>
   </file>
 </testExecutions>

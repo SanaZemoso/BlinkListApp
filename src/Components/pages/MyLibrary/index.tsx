@@ -15,7 +15,7 @@ const useStyle = makeStyles({
         display: 'flex', 
         alignItems: 'center', 
         flexWrap: 'wrap',
-        font:'Cera Pro',
+        // font:'Cera Pro',
     }
 });
 

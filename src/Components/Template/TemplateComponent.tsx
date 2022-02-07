@@ -53,7 +53,7 @@ const TemplateComponent = () => {
                     blankStatus={blankStatus}
                     setBlankStatus={setBlankStatus}
                 />
-                <Box sx={{font:'Cera Pro',position: 'absolute', top: '93px', width: '100%'}}>
+                <Box sx={{position: 'absolute', top: '93px', width: '100%'}}>
                     <Routes>
                     <Route path="/" element={<MyLibrary books={books} setBooks={setBooks} library={library} setLibrary={setLibrary}/>}/>
                         <Route path="/EntrepreneurPage" element={ <EntrepreneurPage books={books} setBooks={setBooks} data={data} setData={setData} library={library} setLibrary={setLibrary} />  }  />
