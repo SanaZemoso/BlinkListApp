@@ -9,7 +9,7 @@ const setLibrary = jest.fn();
 const router = (library: any)=>{
     return (
         <BrowserRouter>
-            <BookInfo library={library} setLibrary={setLibrary}/>
+            <BookInfo library={library} setLibrary={setLibrary}></BookInfo>
         </BrowserRouter>
         
     )
@@ -39,20 +39,20 @@ describe('it is Book Info', () => {
         await new Promise((r) => setTimeout(r, 2000));
         const tabsElement = screen.getByTestId(/tab-audience/);
         fireEvent.click(tabsElement);
-        expect(tabsElement).toHaveStyle('border-bottom-color:#2CE080')
+        expect(tabsElement).toHaveStyle('border-bottom-color:#E1ECFC')
     });
     test('should render third tab with clickable option',async () => {
         render(router(library));
         await new Promise((r) => setTimeout(r, 2000));
         const tabsElement = screen.getByTestId(/tab-author/);
         fireEvent.click(tabsElement);
-        expect(tabsElement).toHaveStyle('border-bottom-color:#2CE080')
+        expect(tabsElement).toHaveStyle('border-bottom-color:#E1ECFC')
     });
     // test('should remove button finished reading on click', async () => {
     //     render(
     //         <BrowserRouter>
     //             <MemoryRouter initialEntries={['book-info/11']}>
-    //                 <BookInfo library={library} setLibrary={setLibrary}/>
+    //                 <BookInfo library={library} setLibrary={setLibrary}></BookInfo>
     //             </MemoryRouter>
     //         </BrowserRouter>
             

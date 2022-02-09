@@ -137,7 +137,7 @@ const BookInfoComponent = ({library, setLibrary}:any)=>{
     const moreInfo = ()=>{
         if(currState === tabData[0].value){
             return(
-                <Typography sx={{ Font:'Cera Pro',color:'#03314B',fontWeight:'400',fontSize:'16px'}}>
+                <Typography sx={{color:'#03314B',fontWeight:'400',fontSize:'16px'}}>
                      Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the<br/> entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text,<br/> supplemented with cutting-edge insights and case studies pertinent to today’s business world.
                 </Typography>
             )
