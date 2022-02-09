@@ -9,7 +9,7 @@ test('should render progressbar', () => {
   expect(progressBarElement).toBeInTheDocument();
 });
 
-test('should render progressbar with value', () => {
+test('should renders progressbar with value', () => {
     render(<ProgressBar value={60}/>);
     const progressBarElement = screen.getByRole('progressbar');
     expect((progressBarElement).getAttribute('aria-valuenow')).toBe('60');

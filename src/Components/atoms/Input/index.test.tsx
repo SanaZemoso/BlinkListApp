@@ -13,7 +13,7 @@ const theme = createTheme({
     }
 });
 
-test('Input Components', () => {
+test('Inputs Components', () => {
     const component = renderer.create(
         <ThemeProvider theme={theme}>
             <InputComponent startIcon={<Search/>}></InputComponent>

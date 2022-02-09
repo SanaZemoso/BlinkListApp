@@ -17,7 +17,7 @@ const tabData = [
 ]
 
 
-test('it should render 2 tabw for 2 length data', () => {
+test('it should renders 2 tabw for 2 length data', () => {
   render(
     <BrowserRouter>
     <ThemeProvider theme={tabTheme}>

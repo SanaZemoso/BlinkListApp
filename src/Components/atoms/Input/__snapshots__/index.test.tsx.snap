@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Input Components 1`] = `
+exports[`Inputs Components 1`] = `
 <div
   className="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-adornedStart MuiInputBase-adornedEnd css-a88p61-MuiInputBase-root-MuiInput-root"
   onClick={[Function]}

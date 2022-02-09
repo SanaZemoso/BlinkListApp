@@ -60,7 +60,7 @@ test('should render different color of card body when inLibrary is false as well
   
 
 
-test('should render different color od card box when inLibrary is false as well as in hoveredState', () => {
+test('should renders different color od card box when inLibrary is false as well as in hoveredState', () => {
     render(router(props));
     const linkElement = screen.getByTestId('card-box');
     fireEvent.mouseEnter(linkElement);

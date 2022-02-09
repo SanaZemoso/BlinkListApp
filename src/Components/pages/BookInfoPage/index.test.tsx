@@ -41,7 +41,7 @@ describe('it is Book Info', () => {
         fireEvent.click(tabsElement);
         expect(tabsElement).toHaveStyle('border-bottom-color:#E1ECFC')
     });
-    test('should render third tab with clickable option',async () => {
+    test('should renders third tab with clickable option',async () => {
         render(router(library));
         await new Promise((r) => setTimeout(r, 2000));
         const tabsElement = screen.getByTestId(/tab-author/);

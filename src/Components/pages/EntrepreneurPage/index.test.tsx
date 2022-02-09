@@ -25,7 +25,7 @@ describe('Home', () => {
         response = await fetch('http://localhost:3000/books');
         books = await response.json();
     })
-    test('it should render input', () => {
+    test('it should renders input', () => {
         render(router(data, books, library));
         const bannerElement = screen.getByPlaceholderText('Search by title or author');
         expect(bannerElement).toBeInTheDocument();
