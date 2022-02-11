@@ -8,7 +8,6 @@ import Card from '../../organisms/Card';
 import CircularProgress from '@mui/material/CircularProgress';
 import {Theme} from '../../../Themes/theme';
 import { makeStyles } from '@mui/styles';
-import { colors } from '@material-ui/core';
 
 const useStyle = makeStyles({
     cards: {

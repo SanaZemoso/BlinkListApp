@@ -2,8 +2,6 @@ import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
-import tabTheme from '../../../Themes/tabsTheme';
-import { ThemeProvider } from '@mui/material/styles';
 import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((themes) => ({

@@ -131,7 +131,7 @@ const BookInfoComponent = ({library, setLibrary}:any)=>{
                 }
             });
             checkInLibrary();
-            return await res.json();
+            return res.json();
         }
     
     const moreInfo = ()=>{
